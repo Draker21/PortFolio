@@ -3,10 +3,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-        <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-            <title>Portfolio - Jim Pronesti</title>
+        {% block stylesheet %}
+            <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+            <link rel="stylesheet" href="{{ asset('css/materialize.min.css') }}">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        {% endblock %} 
+        
+        <title>Portfolio - Jim Pronesti</title>
     </head>
 <body>
     {% include '/Layout/header.html.twig' %}
