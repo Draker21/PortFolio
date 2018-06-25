@@ -1,8 +1,45 @@
+/** FONTS **/
+
 @font-face{
     font-family: 'BrushScript';
-    src: url(../fonts/BrushScriptStd.otf);
+    src: url('../fonts/BrushScriptStd.otf');
 }
 @font-face{
     font-family: 'LemonMilklight';
-    src: url(../fonts/LemonMilklight.otf);
+    src: url('../fonts/LemonMilklight.otf');
 }
+
+.brushScript{font-family: 'BrushScript';}
+.lemonMilkLight{font-family: 'LemonMilklight';}
+
+/** FONT SIZE **/
+.fs25px{font-size: 25px;}
+.fs83px{font-size: 83px;}
+
+/** BACKGROUNDS **/
+.bg_nav{background-image: url('img/backgrounds/bg_nav.png');}
+.bg_logo{background-color: #336699;}
+.bg_home{background-image: url('img/backgrounds/bgS1.png');}
+
+/** HEIGHT & WIDTH **/
+.h35px{height: 35px;}
+.h60px{height: 60px;}
+.h200px{height: 200px;}
+
+.w40px{width: 40px;}
+.w200px{width: 200px;}
+
+/** SVG **/
+#home::before{content: url('icons_svg/home.svg');}
+
+/** LINE-HEIGHT **/
+.lh60px{line-height: 60px;}
+
+/** FLEX **/
+.jcCenter{justify-content: center;}
+
+.borderLogo{border: solid 5px white;}
+
+.br50pct{ border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ; }
+
+.top-70px{top:-70px;}
